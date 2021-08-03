@@ -1,0 +1,14 @@
+#tableProf{
+    margin: 3%;
+    
+}
+#tableProf th span{
+    font-size: 20px;
+  color: #09015f;
+  font-weight: 700;
+  font-family: 'Prata', serif;
+}
+
+#tableProf td,#tableProf th{
+  text-align: center;  
+}

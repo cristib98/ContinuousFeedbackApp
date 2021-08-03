@@ -1,0 +1,40 @@
+#contentHome{
+ margin: auto;
+width: 50%;
+padding: 20px;
+margin-top: 6%;
+background-color: white; 
+border-radius: 5%;
+box-sizing: border-box;     
+ text-align: center;
+}
+#contentHome label{
+    font-size: 25px;
+    padding: 10px;
+    color: #23689b;
+    font-weight: 700;
+    font-family:'Prata', serif;
+}
+#contentHome input{
+    width: 80%;
+    font-size: 25px;
+}
+#viewActiv {
+border: 0;
+    margin-right: auto;
+    color: #FFF;
+    background-color: #f88f01;
+    transition: 0.5s;
+}
+#snackbar{
+    position: fixed;
+    z-index: 1;
+}
+#popupViewActiv{
+    height:350px;
+    width: 60%;
+overflow: hidden;
+}
+#popupViewActiv label,#popupViewActiv input{
+    font-size: 15px;
+}

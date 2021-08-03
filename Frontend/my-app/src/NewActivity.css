@@ -1,0 +1,89 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#page{
+    background-image: url("./img/backActiv.jpg");
+    background-size: cover;
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+#addBtn2 {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    border: 0;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f88f01;
+    margin-right: auto;
+    border: 4px solid #f88f01;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    transition: 0.5s;
+}
+
+#addBtn2:hover {
+    color: #FFF;
+    background-color: #f88f01;
+}
+div.p-dialog-header{
+    background-color: #f88f01!important;
+    color: white!important;
+    padding: 10px;
+}
+.pi-unlock {
+    color:  white
+
+}
+
+#header {
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1CB5E0, #000046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1CB5E0, #000046);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#title {
+    font-family: 'Prata', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#subtitle {
+    font-family: 'Mystery Quest', cursive;
+    text-align: center;
+    font-size: 26px;
+}
+
+#saveBtn {
+    width: 20%;
+}
+
+.ops {
+    display: flex;
+    justify-content: center;
+}
+
+#tabelActivity {
+    opacity: 0.9;
+    margin: 3%;
+}
+
+#tabelActivity tr {
+    background: #0f3057;
+    color: white
+}
+
+#tabelActivity tr:nth-child(even) {
+    background-color: #00587a;
+    color: white
+}

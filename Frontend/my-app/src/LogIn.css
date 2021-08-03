@@ -1,0 +1,88 @@
+
+#fullPage{
+    background-image: url("./img/backlog.jpg");
+    background-size: cover ;
+    min-height: 100%; 
+    position: absolute;
+    width: 100%;
+}
+#container{ 
+    height: auto;   
+    padding:0;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 4%;
+    float: right;
+    margin-right: 10%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-top: 0px;
+    background-color: white;
+}
+#email,#password{
+    padding: 10px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #51c2d5;
+    margin: 5px;
+}
+#rdStud{
+    background-image: url("./img/student.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+div.p-radiobutton-box {
+    width: 3vh;
+    height: 8vh;
+}
+.p-radiobutton{
+    margin-left: 5vh;
+}
+#rdTeacher, #rdStud{
+   margin-top: 20px;
+    display: inline-block;
+    border-radius: 2%;
+    padding: 3vh;
+    color: white;
+    margin: 10px solid #00587a;
+
+}
+
+#rdTeacher:hover, #rdStud:hover{
+    color:#00587a;
+
+}
+
+#rdTeacher{
+    background-image: url("./img/teacher.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+#radio{
+    display: flex;
+    justify-content: space-around;
+}
+#titleLogIn{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background: linear-gradient(180deg, rgba(3,80,111,1) 0%, rgba(172,225,255,1) 100%);
+    padding: 5px;
+    font-size: 55px;
+}
+.p-field{
+margin-top: 20px;
+}
+#submit,#register {
+    background-color:#51c2d5 ;
+    border: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 40%;
+}
+#submit:hover,#register:hover{
+    background-color:#19456b;
+    box-shadow: 0px 6px 15px #19456b;
+}
+
+
